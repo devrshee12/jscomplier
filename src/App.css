@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  
+  /* border: 1px solid red; */
+}
+
+.first{
+  height: 100%;
+  width: 50%;
+  /* background: red; */
+}
+
+
+.second{
+  height: 100%;
+  width: 50%;
+  background-color: hsl(225, 6%, 25%);
+
+  /* border: 2px solid blue; */
+}
+
+.editor{
+  /* border: 2px solid green; */
+  /* height: 100%; */
+  height: 100%;
+  width: 100%;
+  background-color: hsl(225, 6%, 25%);
+}
+
+.CodeMirror {
+  height: 100% !important
+}
+
+.output{
+  width: 100%;
+  height: 90%;
+  /* border: 2px solid black; */
+}
+
+.btn-container{
+  width: 100%;
+  /* border: 2px solid brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
